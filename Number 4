@@ -13,7 +13,7 @@ int main()
         {
             if (i <= center)
             {
-                // Верхня половина ромба
+               
                 if (j >= center - i && j <= center + i)
                     cout << "*";
                 else
@@ -21,7 +21,7 @@ int main()
             }
             else
             {
-                // Нижня половина ромба
+                
                 if (j >= center + i - N + 1 && j <= center - i + N - 1)
                     cout << "*";
                 else
